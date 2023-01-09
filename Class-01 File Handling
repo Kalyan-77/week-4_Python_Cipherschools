@@ -1,0 +1,44 @@
+file=open("random.txt","w")
+file.write("blah blah blan")
+
+file=open("random.txt","w")
+file.write("jatin katyal")
+
+a=["jatin","samarth","sujith","saransh"]
+file.writelines(a)
+file.writelines
+
+files=open("sample.txt","r")
+file.read()
+print(file.read())
+
+#Context Programming
+with open("random.txt","r") as file:
+    print(file.read())
+print(file.read())
+
+class A:
+    def __enter__(self):
+        print("Entered")
+        
+    def __exit__(self,*args):
+        print("Exited")
+with A() as x:
+    print(x):
+    print("inside context")
+    raise Exception
+    
+print("Outside context")
+
+a={
+    "name": "jatin katyal"
+    "marks": 100,
+    "languages": {
+        "c++",
+        "python",
+        "go",
+        "rust"
+    }
+}
+    }
+}
