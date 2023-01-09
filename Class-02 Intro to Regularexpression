@@ -1,0 +1,23 @@
+#SQL Statement
+SELECT=FROM Customers;
+where contactName regexp "M"
+
+SELECT=FROM Customers;
+where City regexp "M"
+
+SELECT=FROM Customers;
+where City regexp "ds"
+
+SELECT=FROM Customers;
+where city regexp "M" and where city regexp "ds"
+
+SELECT=FROM Customers;
+where City regexp "M|ds"
+
+SELECT=FROM Customers;
+where City regexp "a|mac|d^"
+
+SELECT=FROM Customers;
+where City regexp "[abc]i"
+
+
